@@ -8,28 +8,27 @@
       #canvas {
         position: absolute;
         border: 2px solid black;
-        /* background: #333; */
+        background: #333;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
       }
+      .sildercontainer {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #333;
+      }
     </style>
   </head>
   <body>
-    <div class="slider-container">
-      <div class="slidecontainer">
-        <input
-          type="range"
-          min="1"
-          max="100"
-          value="50"
-          class="slider"
-          id="myRange"
-        />
-      </div>
-    </div>
+    
     <canvas id="canvas"></canvas>
+   
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
